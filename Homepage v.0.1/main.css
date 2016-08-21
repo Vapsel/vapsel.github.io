@@ -1,0 +1,63 @@
+
+body {
+	background-color: #dbdbdb;
+	font-family: 'Vollkorn', serif;
+}
+.container-fluid {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.fd-main-content-row {
+	padding-top: 15px;
+}
+/********************************************/
+/*                Sections                  */
+/********************************************/
+section .panel, section .panel-heading {
+	border-radius: 2px;
+	border: none;
+}
+section .panel:first-of-type {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel-heading h1 {
+	font-size: 36px;
+}
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border: none;
+}
+.panel-body p {
+	font-size: 16px;
+	text-align: justify;
+}
+.panel-body p:last-of-type {
+	margin: 0px;
+}
+/********************************************/
+#fd-about-me-section div.panel {
+    background-color: #9cff7b;
+}
+#fd-about-me-section div.panel-heading {
+    background-color: #0bb900;
+}
+/********************************************/
+#fd-experience-section div.panel {
+    background-color: #9ed2ff;
+}
+#fd-experience-section div.panel-heading {
+    background-color: #2c9dff;
+}
+/********************************************/
+/*          Contact images section          */
+/********************************************/
+.fd-contact-section figure {
+	float: left;
+	margin: 5px;
+}
+.fd-contact-section figure:hover img {
+	transform: scale(0.9);
+}
+.fd-contact-section figure img {
+	border-radius: 10px;
+}
+/********************************************/
