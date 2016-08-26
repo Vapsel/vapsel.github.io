@@ -4,29 +4,33 @@
     <title>Vapsel Homepage</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Offline coding purpose -->
+    <link rel="stylesheet" href="E:/GitHub/bootstrap-3-3-6.min.css">
+    <script src="E:/GitHub/jquery-2-2-4.min.js"></script>
+    <script src="E:/GitHub/bootstrap-3-3-6.min.js"></script>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
     
     <link rel="stylesheet" href="main.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 
     <script src="main.js"></script>
-
 </head>
 <body>
     <div class="container-fluid">
         <div class="row fd-main-content-row"> 
 
             <!-- About me -->
-            <section id="fd-about-me-section" class="col-lg-7">
+            <section id="fd-about-me-section" class="col-sm-7">
                 <div class="panel panel-default">
                     <div class="panel-heading"><h1 class="panel-title">Who I am?</h1></div>
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-lg-7">
+                            <div class="col-md-7 col-sm-12">
                                 <p>My name is Vadym. I'm 20 years old web developer from Cracow, Poland. 
                                 I'm third year student of Information Technologies at AGH University of Sience and Technology at Cracow.
                                 Currently I combine studies with work in well-known Poland IT company as junior full stack web developer.</p>
@@ -35,7 +39,7 @@
                                 My short term goals are learn more about Spring MVC framework and create Javascript library 
                                 for menaging SVG elements on webpage. I think that fixing issues is the best way to learn deeper some technology.</p>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-md-5 col-sm-12">
                                 <img class="media-object img-responsive" src="myPhoto.jpg" alt="Photo">
                             </div>          
                         </div>
@@ -44,7 +48,7 @@
             </section>
 
             <!-- My experience -->
-            <section id="fd-experience-section" class="col-lg-5">
+            <section id="fd-experience-section" class="col-sm-5">
                 <div class="panel panel-default">
                     <div class="panel-heading"><h1 class="panel-title">Experience</h1></div>
                     <div class="panel-body">
@@ -93,22 +97,23 @@
         </div> <!-- <div class="row fd-main-content"> -->    
 
         <!-- Contact me -->
-        <footer class="footer">
-            <div class="container-fluid">
+        <footer>
+            <div class="container">
                 <div class="row">
-                    <section class="fd-contact-section container col-lg-10">
-                        <figure><a class="" href="#"><img src="contact-linkedIn.png" class="" alt="LinkedIn"></a></figure>
-                        <figure><a class="" href="#"><img src="contact-googlePlus.png" class="" alt="Google PLus"></a></figure>
-                        <!-- http://www.flaticon.com/free-icon/github-logo-silhouette-in-a-square_38401 -->
-                        <figure><a class="" href="#"><img src="contact-Github.png" class="" alt="Github"></a></figure> 
-                        <figure><a class="" href="#"><img src="contact-Facebook.png" class="" alt="Facebook"></a></figure> 
-                        <figure><a class="" href="#"><img src="contact-Vkontakte.png" class="" alt="Vkontakte"></a></figure> 
+                    <section class="fd-contact-section container col-md-5 col-sm-12 col-xs-12">
+                        <div class="row text-center">
+                            <figure class="center-block">
+                                <a class="" href="#"><img src="contact-linkedIn.png" alt="LinkedIn"></a>
+                                <a class="" href="#"><img src="contact-googlePlus.png" alt="Google PLus"></a>
+                                <a class="" href="#"><img src="contact-Github.png" alt="Github"></a> 
+                                <a class="" href="#"><img src="contact-Facebook.png" alt="Facebook"></a>
+                                <a class="" href="#"><img src="contact-Vkontakte.png" alt="Vkontakte"></a>
+                            </figure>
+                        </div>
+                        <div class="row">
+                            <p class="text-center text-muted">You can send your feedback on vapsel@gmail.com</p>
+                        </div>
                     </section>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p class="text-muted">You can send your feedback on  vapsel@gmail.com</p>
-                    </div>
                 </div>
             </div>
         </footer>

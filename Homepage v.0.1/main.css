@@ -10,6 +10,15 @@ body {
 .fd-main-content-row {
 	padding-top: 15px;
 }
+/* Why @media (max-width: @screen-xs-max) { ... } doesn't work */
+@media (max-width: 768px) {
+	body .container-fluid{
+		padding: 0;
+	}
+}
+
+
+
 /********************************************/
 /*                Sections                  */
 /********************************************/
@@ -47,17 +56,20 @@ section .panel:first-of-type {
 #fd-experience-section div.panel-heading {
     background-color: #2c9dff;
 }
+
+
+
 /********************************************/
 /*          Contact images section          */
 /********************************************/
 .fd-contact-section figure {
-	float: left;
 	margin: 5px;
 }
-.fd-contact-section figure:hover img {
+.fd-contact-section figure img:hover {
 	transform: scale(0.9);
 }
 .fd-contact-section figure img {
 	border-radius: 10px;
+	margin: 2px;
 }
 /********************************************/
