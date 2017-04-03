@@ -21,116 +21,131 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid fd-hard-width">
         <div class="row fd-main-content-row"> 
 
-            <!-- About me -->
-            <section id="fd-about-me-section" class="col-sm-7">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h1 class="panel-title">Who I am?</h1></div>
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-md-7 col-sm-12">
-                                <p>My name is Vadym. I'm 20 years old web developer from Cracow, Poland. 
-                                I'm third year student of Information Technologies at AGH University of Sience and Technology at Cracow.
-                                Currently I combine studies with work in well-known Poland IT company as junior full stack web developer.</p>
-                                <p> I admire creating perfect code i.e. worked, optimized and well documented. 
-                                My weakness is I never feel comfortable until I finish my current tasks. 
-                                My short term goals are learn more about Spring MVC framework and create Javascript library 
-                                for menaging SVG elements on webpage. I think that fixing issues is the best way to learn deeper some technology.</p>
-                            </div>
-                            <div class="col-md-5 col-sm-12">
-                                <img class="media-object img-responsive" src="avatar.jpg" alt="Photo">
-                            </div>          
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- My experience -->
-            <section id="fd-experience-section" class="col-sm-5">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h1 class="panel-title">Experience</h1></div>
-                    <div class="panel-body">
-                        <!-- It is empty to leave some space beetwen panel headers -->
-                    </div>
-
-                    <div class="panel-group" id="accordion">
-                        <!-- Comarch -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h4 class="panel-title">Smart City</h4></div>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <p class="fd-font-16">
-                                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 2016 - Present<br>
-                                        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Comarch (Cracow, Poland)<br>
-                                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Java, Spring Portlet MVC, jQuery, Bootstrap, Google Maps API
-                                    </p>
-                                    <p class="fd-font-16">It is product for business based on loyalty management.
-                                    I came to team after one year of project development. I'm working on server side web application as part of 
-                                    content management system (Liferay). Most time I spent developing new features, improving code design structure and maps functionality.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FMF -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h4 class="panel-title">Find my Friends</h4></div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p class="fd-font-16">
-                                        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> March - June 2016<br>
-                                        <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Idea Factory BIT Scientific Group at AGH (Cracow, Poland)<br>
-                                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Java, Spring MVC, Spring Data, Spring Boot, PosgreSQL, Lombok
-                                    </p>
-                                    <p class="fd-font-16">It is student project, android application to find friends near you. I was member of server side developer team. 
-                                    I implemented message sending to end user via email and password recovery. It is small project with clear MVC pattern. 
-                                    It was good experience using Git, Confluence, Jira and Slack platforms.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>                  
-                </div>
-            </section>
-
-            <!-- Skills -->
-            <section id="fd-skills-section" class="col-sm-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h1 class="panel-title">Skills</h1></div>
-                    <div class="panel-body">
-
-                        <div class="fd-skill">
-                            <span class="fd-skill-tech">Java 8</span>
-                            <span class="fd-skill-exp">1.5 year</span>
-                        </div>
-
-                        <canvas id="jq-chart-canvas"></canvas>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Some empty space -->
-            <section class="col-md-3"></section>
-
-            <!-- Contact me -->
-            <section class="fd-contact-section container col-md-5 col-xs-12">
-                <div class="row text-center">
-                    <figure class="center-block">
-                        <a class="" href="https://pl.linkedin.com/in/vadym-perepeliak" target="_blank"><img src="contact-linkedIn.png" alt="LinkedIn"></a>
-                        <!-- <a class="" href="https://plus.google.com/116144199979006764006" target="_blank"><img src="contact-googlePlus.png" alt="Google PLus"></a> -->
-                        <a class="" href="https://github.com/Vapsel" target="_blank"><img src="contact-Github.png" alt="Github"></a>
-                        <a class="" href="https://web.facebook.com/vadym.perepeliak" target="_blank"><img src="contact-Facebook.png" alt="Facebook"></a>
-                        <a class="" href="https://vk.com/vadym_perepeliak" target="_blank"><img src="contact-Vkontakte.png" alt="Vkontakte"></a>
-                    </figure>
-                </div>
+            <!-- Left column -->
+            <div class="col-sm-7">
+                <!-- About me -->
                 <div class="row">
-                    <p class="text-center text-muted">You can send your feedback on vapsel@gmail.com</p>
+                    <section id="fd-about-me-section" class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h1 class="panel-title">Who I am?</h1></div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <p>My name is Vadym. I'm 20 years old web developer from Cracow, Poland.
+                                            I'm third year student of Information Technologies at AGH University of Sience and Technology at Cracow.
+                                            Currently I combine studies with work in well-known Poland IT company as junior full stack web developer.</p>
+                                        <p> I admire creating perfect code i.e. worked, optimized and well documented.
+                                            My weakness is I never feel comfortable until I finish my current tasks.
+                                            My short term goals are learn more about Spring MVC framework and create Javascript library
+                                            for menaging SVG elements on webpage. I think that fixing issues is the best way to learn deeper some technology.</p>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                        <img class="media-object img-responsive" src="avatar.jpg" alt="Photo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
 
-        </div> <!-- <div class="row fd-main-content"> -->
-    </div> <!-- <div class="container-fluid"> -->
+                <!-- Skills -->
+                <div class="row">
+                    <section id="fd-skills-section" class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h1 class="panel-title">Skills</h1></div>
+                            <div class="panel-body">
+
+                                <div class="fd-skill">
+                                    <span class="fd-skill-tech">Java 8</span>
+                                    <span class="fd-skill-exp">1.5 year</span>
+                                </div>
+
+                                <canvas id="jq-chart-canvas"></canvas>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+            <!-- Right column -->
+            <div class="col-sm-5">
+
+                <!-- My experience -->
+                <div class="row">
+                    <section id="fd-experience-section" class="col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading"><h1 class="panel-title">Experience</h1></div>
+                            <div class="panel-body">
+                                <!-- It is empty to leave some space between panel headers -->
+                            </div>
+
+                            <div class="panel-group" id="accordion">
+                                <!-- Comarch -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse1"><h4 class="panel-title">Smart City</h4></div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p class="fd-font-16">
+                                                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> May 2016 - Present<br>
+                                                <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Comarch (Cracow, Poland)<br>
+                                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Java, Spring Portlet MVC, jQuery, Bootstrap, Google Maps API
+                                            </p>
+                                            <p class="fd-font-16">It is product for business based on loyalty management.
+                                                I came to team after one year of project development. I'm working on server side web application as part of
+                                                content management system (Liferay). Most time I spent developing new features, improving code design structure and maps functionality.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FMF -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h4 class="panel-title">Find my Friends</h4></div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p class="fd-font-16">
+                                                <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> March - June 2016<br>
+                                                <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Idea Factory BIT Scientific Group at AGH (Cracow, Poland)<br>
+                                                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Java, Spring MVC, Spring Data, Spring Boot, PosgreSQL, Lombok
+                                            </p>
+                                            <p class="fd-font-16">It is student project, android application to find friends near you. I was member of server side developer team.
+                                                I implemented message sending to end user via email and password recovery. It is small project with clear MVC pattern.
+                                                It was good experience using Git, Confluence, Jira and Slack platforms.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section><!-- /My experience -->
+                </div>
+
+                <!-- Contact me -->
+                <div class="row">
+                    <section class="fd-contact-section container col-xs-12">
+                        <div class="row text-center">
+                            <figure class="center-block">
+                                <a class="" href="https://pl.linkedin.com/in/vadym-perepeliak" target="_blank"><img src="contact-linkedIn.png" alt="LinkedIn"></a>
+                                <!-- <a class="" href="https://plus.google.com/116144199979006764006" target="_blank"><img src="contact-googlePlus.png" alt="Google PLus"></a> -->
+                                <a class="" href="https://github.com/Vapsel" target="_blank"><img src="contact-Github.png" alt="Github"></a>
+                                <a class="" href="https://web.facebook.com/vadym.perepeliak" target="_blank"><img src="contact-Facebook.png" alt="Facebook"></a>
+                                <a class="" href="https://vk.com/vadym_perepeliak" target="_blank"><img src="contact-Vkontakte.png" alt="Vkontakte"></a>
+                            </figure>
+                        </div>
+                        <div class="row">
+                            <p class="text-center text-muted">You can send your feedback or question on vapsel@gmail.com</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+
+        </div> <!-- /row fd-main-content -->
+    </div> <!-- /container-fluid -->
     
 </body>
 </html>
