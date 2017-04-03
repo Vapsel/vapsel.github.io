@@ -71,33 +71,35 @@ section .panel:first-of-type {
 }
 /********************************************/
 #fd-skills-section div.panel {
-    background-color: #b3add6;
+    background-color: #ccc9e2;
 }
 #fd-skills-section div.panel-heading {
-    background-color: #af4dc7;
+    background-color: #c26fd6;
 }
 
 
 
 
 /********************************************/
-/*                  Skills                  */
+/*                  Version                 */
 /********************************************/
-.fd-skill{
+.fd-version {
     color: white;
     padding: 3px;
     font-family: initial;
     display: initial;
     font-weight: 600;
+    float: right;
+    margin-right: 20px;
 }
-.fd-skill .fd-skill-tech{
+.fd-version .fd-version-text {
     background-color: #5a5a5a;
     padding: inherit;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
 }
-.fd-skill .fd-skill-exp{
-    background-color: #91bf0a;
+.fd-version .fd-version-number {
+    background-color: #bf7d0a;
     padding: inherit;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
