@@ -50,11 +50,51 @@ section .panel:first-of-type {
     background-color: #0bb900;
 }
 /********************************************/
+/* FIXME: this section height is 1px less than previous section =>
+unexpected behavior when add next section */
+#fd-experience-section{
+    margin-bottom: 1px;
+}
 #fd-experience-section div.panel {
     background-color: #9ed2ff;
 }
 #fd-experience-section div.panel-heading {
     background-color: #2c9dff;
+}
+/********************************************/
+#fd-skills-section div.panel {
+    background-color: #b3add6;
+}
+#fd-skills-section div.panel-heading {
+    background-color: #af4dc7;
+}
+
+
+
+
+/********************************************/
+/*                  Skills                  */
+/********************************************/
+.fd-skill{
+    color: white;
+    padding: 3px;
+    font-family: initial;
+    display: initial;
+    font-weight: 600;
+}
+.fd-skill .fd-skill-tech{
+    background-color: #5a5a5a;
+    padding: inherit;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.fd-skill .fd-skill-exp{
+    background-color: #91bf0a;
+    padding: inherit;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-right: -4px;
+    margin-left: -4px;
 }
 
 
