@@ -5,6 +5,7 @@ body {
 }
 .fd-hard-width{
     max-width: 1200px;
+    min-width: 200px;
 }
 .container-fluid {
 	padding-right: 40px;
